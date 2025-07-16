@@ -6,6 +6,18 @@ import pandas as pd
 import os
 import mimetypes
 import hashlib
+class SpamFeaturesExtractor:
+    def __init__(self):
+        # Your init code here
+        pass
+
+    def fit(self, X, y=None):
+        return self
+
+    def transform(self, X):
+        # Your transformation logic here
+        pass
+
 
 # === Load saved components ===
 pipeline = joblib.load("spam_classifier.joblib")
